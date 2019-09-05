@@ -102,8 +102,8 @@
 
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
@@ -128,8 +128,8 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
@@ -167,40 +167,40 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding: 5rem 0 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
-.projects-section {
+.product-section {
   padding: 10rem 0;
 }
 
-.projects-section .featured-text {
+.product-section .featured-text {
   padding: 2rem;
 }
 
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .product-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
 
-.projects-section .project-text {
+.product-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .product-section .project-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
+  .product-section .project-text hr {
     border-color: #64a19d;
     border-width: .25rem;
     width: 30%;
@@ -231,6 +231,10 @@
 
 .contact-section {
   padding: 5rem 0 0;
+}
+
+.contact-section .row {
+  margin-bottom: 2rem;
 }
 
 .contact-section .card {
