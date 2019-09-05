@@ -2,7 +2,7 @@
 
 <div align="center">
 
-## Open this project
+### Open this project
 
 ```bash
 $ npm install
