@@ -1,4 +1,0 @@
-D:\hunt\projects\TaiwanMT\TaiwanMuscle\TaiwanMuscle\Common\obj\Debug\netcoreapp2.1\Common.csprojAssemblyReference.cache
-D:\hunt\projects\TaiwanMT\TaiwanMuscle\TaiwanMuscle\Common\obj\Debug\netcoreapp2.1\Common.csproj.CoreCompileInputs.cache
-D:\hunt\projects\TaiwanMT\TaiwanMuscle\TaiwanMuscle\Common\obj\Debug\netcoreapp2.1\Common.AssemblyInfoInputs.cache
-D:\hunt\projects\TaiwanMT\TaiwanMuscle\TaiwanMuscle\Common\obj\Debug\netcoreapp2.1\Common.AssemblyInfo.cs
