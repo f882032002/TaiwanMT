@@ -9,11 +9,11 @@ function Navbar(props) {
     return (
         <Menu 
             onClick={handleClick} 
-            defaultSelectedKeys={['home']} 
+            defaultSelectedKeys={["home"]} 
             mode="horizontal" 
             theme="light"
-            style={{ lineHeight: '62px', borderBottom: 'none' }}
-        >
+            style={{ lineHeight: "62px", borderBottom: "none" }}
+        >   
             <Item key='home'>
                 <Link to="/" >
                     <Icon type="home" />

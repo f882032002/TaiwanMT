@@ -1,24 +1,25 @@
 import React from 'react';
 import banner from '../images/banner.png';
-import { Card, Button, Row, Col } from 'antd';
+import banner2 from '../images/banner2.png';
+import { Row, Col, Carousel } from 'antd';
 
-function handleClick(){
-    console.log('123')
-}
+
 
 function Home (){
+    const settings = {
+        autoplay: true,
+        speed: 500,
+    }
     return (
-        <Row type="flex" justify="center" >
-            <Col span={24}>
-                <img src={banner} alt="banner" width="100%" height="auto" />
+        <Row type="flex" justify="center">
+            <Col span={24} style={{ position: 'relative' }}>
+                <Carousel {...settings}>
+                    <img src={banner} alt="banner" width="100%" height="auto" />
+                    <img src={banner2} alt="banner" width="100%" height="auto" />
+                </Carousel>
             </Col>
-            <Col span={12} style={{ background: '#ECECEC', padding: '30px' }}>
-                <Card title="Home title" bordered={false} style={{ width: '100%' }}>
-                    <p>Home</p>
-                    <p>Home</p>
-                    <p>Home</p>
-                    <Button type="primary" onClick={handleClick}>Button</Button>
-                </Card>
+            <Col span={24} style={{paddingTop: 64, textAlign: 'center'}}>
+                <h1>專售 Eat Me 紐西蘭 & My Protein 英國 乳清蛋白</h1>
             </Col>
         </Row>
     );

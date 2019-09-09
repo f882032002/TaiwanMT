@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './images/logo.png';
 import { Route } from 'react-router-dom';
-import { Row, Col, Layout, Icon } from 'antd';
+import { Row, Col, Layout } from 'antd';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Contact } from './pages/Contact';
